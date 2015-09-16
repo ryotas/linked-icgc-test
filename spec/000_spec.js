@@ -2,7 +2,7 @@ var fs = require('fs');
 var frisby = require('frisby');
 
 var url = 'http://localhost:8890/sparql';
-var numTests = 1;
+var numTests = 2;
 
 for (var i=1; i<=numTests; i++) {
 
