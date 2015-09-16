@@ -1,0 +1,5 @@
+{ "head": { "link": [], "vars": ["item"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "item": { "type": "literal", "value": "" }},
+    { "item": { "type": "literal", "value": "female" }},
+    { "item": { "type": "literal", "value": "male" }} ] } }
