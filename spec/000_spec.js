@@ -2,8 +2,9 @@ var fs = require('fs');
 var frisby = require('frisby');
 
 var url = 'http://localhost:8890/sparql';
+var numTests = 1;
 
-for (var i=1; i<=1; i++) {
+for (var i=1; i<=numTests; i++) {
 
   var strI = ("00" + i).slice(-3);
   var query = fs.readFileSync('./spec/' + strI + '.sql', 'utf8');
